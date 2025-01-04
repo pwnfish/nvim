@@ -1,6 +1,9 @@
 -- for brevity
 local o = vim.opt
 
+-- set language
+vim.cmd("language en_US.utf8")
+
 -- show line numbers
 o.number = true
 
