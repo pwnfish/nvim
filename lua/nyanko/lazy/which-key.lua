@@ -3,6 +3,7 @@ return {
 	event = "VimEnter",
 	opts = {
 		icons = {
+			separator = "->",
 			mappings = false,
 		},
 		spec = {
