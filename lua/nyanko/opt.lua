@@ -2,7 +2,11 @@
 local o = vim.opt
 
 -- set language
-vim.cmd("language en_US.utf8")
+if jit.os == "OSX" then
+	vim.cmd("language en_US")
+else
+	vim.cmd("language en_US.utf8")
+end
 
 -- show line numbers
 o.number = true
