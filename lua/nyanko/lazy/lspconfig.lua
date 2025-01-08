@@ -117,6 +117,7 @@ return {
 		}
 
 		require("mason").setup()
+		vim.keymap.set("n", "<leader>om", "<cmd>Mason<cr>", { desc = "[O]pen [M]ason" })
 
 		local ensure_installed = vim.tbl_keys(servers or {})
 		vim.list_extend(ensure_installed, {
