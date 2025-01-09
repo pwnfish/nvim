@@ -9,6 +9,7 @@ return {
 		spec = {
 			{ "<leader>s", group = "[S]earch" },
 			{ "<leader>o", group = "[O]pen" },
+			{ "<leader>b", group = "[B]uffer" },
 		},
 	},
 }
