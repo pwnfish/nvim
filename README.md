@@ -6,3 +6,4 @@ my neovim configuration
 
 - ripgrep (for telescope)
 - npm (for installing language servers and formatters)
+- lazygit
