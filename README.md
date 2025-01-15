@@ -5,5 +5,9 @@ my neovim configuration
 ## external dependencies
 
 - ripgrep (for telescope)
-- npm (for installing language servers and formatters)
 - lazygit
+
+for installing LSPs and formatters with mason-tool-installer:
+
+- cargo
+- npm
