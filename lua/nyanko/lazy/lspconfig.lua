@@ -95,7 +95,6 @@ return {
 					},
 				},
 			},
-			phpactor = {},
 			ts_ls = {},
 			tailwindcss = {
 				settings = {
