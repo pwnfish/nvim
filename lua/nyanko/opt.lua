@@ -11,6 +11,9 @@ end
 -- show line numbers
 o.number = true
 
+-- 80 column indicator
+o.colorcolumn = "80"
+
 -- enable mouse mode
 o.mouse = "a"
 
