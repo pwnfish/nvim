@@ -64,6 +64,7 @@ return {
 					},
 				},
 			},
+			gopls = {},
 			html = {},
 			cssls = {},
 			eslint = {
